@@ -15,6 +15,8 @@ end
 
 -- stylua: ignore
 local keys = {
+   -- launcher menu --
+   { key = 'z', mods = 'ALT', action = wezterm.action.ShowLauncher },
    -- misc/useful --
    { key = 'F1', mods = 'NONE', action = 'ActivateCopyMode' },
    { key = 'F2', mods = 'NONE', action = act.ActivateCommandPalette },
