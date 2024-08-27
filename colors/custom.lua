@@ -1,6 +1,6 @@
 -- A slightly altered version of catppucchin mocha
 local mocha = {
-   rosewater = '#f5e0dc',
+   rosewater = '#47FF9C',
    flamingo = '#f2cdcd',
    pink = '#f5c2e7',
    mauve = '#cba6f7',
@@ -14,18 +14,18 @@ local mocha = {
    sapphire = '#74c7ec',
    blue = '#89b4fa',
    lavender = '#b4befe',
-   text = '#cdd6f4',
+   text = '#CBE0F0',
    subtext1 = '#bac2de',
    subtext0 = '#a6adc8',
    overlay2 = '#9399b2',
    overlay1 = '#7f849c',
    overlay0 = '#6c7086',
-   surface2 = '#585b70',
+   surface2 = '#033259',
    surface1 = '#45475a',
    surface0 = '#313244',
-   base = '#1f1f28',
+   base = '#011423',
    mantle = '#181825',
-   crust = '#11111b',
+   crust = '#011423',
 }
 
 local colorscheme = {
@@ -37,14 +37,14 @@ local colorscheme = {
    selection_bg = mocha.surface2,
    selection_fg = mocha.text,
    ansi = {
-      '#0C0C0C', -- black
-      '#C50F1F', -- red
-      '#13A10E', -- green
-      '#C19C00', -- yellow
-      '#0037DA', -- blue
-      '#881798', -- magenta/purple
-      '#3A96DD', -- cyan
-      '#CCCCCC', -- white
+      '#214969', -- black
+      '#E52E2E', -- red
+      '#44FFB1', -- green
+      '#FFE073', -- yellow
+      '#0FC5ED', -- blue
+      '#a277ff', -- magenta/purple
+      '#24EAF7', -- cyan
+      '#24EAF7', -- white
    },
    brights = {
       '#767676', -- black
